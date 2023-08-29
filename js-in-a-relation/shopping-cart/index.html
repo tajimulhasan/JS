@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     
+     <section>
+        <div class="title-sec">
+             <h1>My Shopping Cart</h1>
+             <marquee behavior="scroll" direction="" style="color: white;"><h2>Buy Now</h2></marquee>
+        </div>
+       
+       
+     </section>
+     <section class="main-sec">
+          <div class="arranged-div">
+               <div class="div-parent">
+          
+                    <div class="first-sec">
+                    <div class="mobile-image">
+                         <img src="/shopping-cart/images/product-1.png" alt="">
+                       </div>
+                       <div class="title"><h3>iPhone 11 128GB Black
+                     </h3>
+                      </div>
+                    </div>
+                 
+                      <div class="button-sec">
+                           <button id="button-minus">-</button>
+                        <input id="phone-input" class="input-class"  type="number" min="0" class="form-control text-center" value="1">
+                        <button id="button-plus">+</button>
+                        <div class="baki"> 
+                          <div class="tag"> <h2>$ <span id="phone-total">1219</span>
+                           </h2></div>
+          
+                           <div class="hele"> <img src="remove.png" alt=""></div>
+                         </div>
+                      </div>
+                 
+               </div>
+               <div class="div-parent" style="margin-top: 20px;">
+          
+                    <div class="first-sec">
+                    <div class="mobile-image">
+                         <img src="/shopping-cart/images/product-2.png" alt="">
+                       </div>
+                       <div class="title"><h3>iPhone 11 Silicone Case - Black
+
+                     </h3>
+                      </div>
+                    </div>
+                 
+                      <div class="button-sec">
+                           <button id="case-minus">-</button>
+                        <input id="case-input" class="input-class"  type="number" min="0" class="form-control text-center" value="1">
+                        <button id="case-plus">+</button>
+                        <div class="baki"> 
+                          <div class="tag"><h2>$ <span id="case-total">59</span>
+                           </h2></div>
+          
+                           <div class="hele"> <img src="/shopping-cart/images/remove.png" alt=""></div>
+                         </div>
+                      </div>
+                 
+               </div>
+               <div class="div-parent" style="margin-top: 20px;">
+          
+                   <div class="left">
+                    <h3 >Subtotal:
+                    </h3>
+                    <h3 >Tax:
+                    </h3>
+                    <h3>Total:
+                    </h3>
+                   </div>
+                 <div class="right">
+                    <h3>$<span id="sub-total">1278</span>
+                      
+                    </h3>
+                    <h3>$<span id="tax-amount">0</span>
+
+                    </h3>
+                    <h3>$ <span id="total-amount">1278</span>
+                    </h3>
+                 </div>
+                      
+                 
+               </div>
+               <div class="btn">
+                <button onclick="alert()" class="button" >Check Out</button>
+              </div><br>
+                
+          </div>
+          
+     </section>
+
+    <script src="/shopping-cart/shopping.js">
+
+    </script>
+</body>
+</html>

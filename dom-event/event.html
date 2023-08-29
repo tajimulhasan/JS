@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: blue;
+            font-weight: 600;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+     <h1 onclick="alert('Hit the OK button see Magic')">Event niye clickbaji</h1>
+     <button onclick ="alert()">Click me</button>
+     <button onclick ="makeRed()">Click me:  Red</button>
+     <button id="makeblue-button">Click ME: Blue</button>
+     <button id="make-green-button">Click me: Green</button>
+     <button id="make-goldenrod-button">Click me: Gold rod</button>
+     <button>.</button>
+     <script src="js/event.js">
+              
+     </script>
+       <script>
+
+        // make blue button with function 
+        
+        const blueButton = document.getElementById('makeblue-button');
+blueButton.onclick = makeBlue;
+
+function makeBlue (){
+    document.body.style.backgroundColor = 'blue';
+}
+       </script>
+       <script>
+        // anonymous 
+        const greenButton = document.getElementById('make-green-button');
+        greenButton.onclick = function makeGreen (){
+            document.body.style.backgroundColor = 'green';
+        }
+       </script>
+      
+</body>
+</html>

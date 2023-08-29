@@ -1,0 +1,1 @@
+console.log('this my third js file');

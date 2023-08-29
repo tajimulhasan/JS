@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="clicking-mathod"></p>
+    <input id="input-field" type="text">
+    <button id="update-name">Update</button>
+    <button onclick="handleJustFunctionClick()">Just Function</button>
+    <button id="Handle-Event">direct add Event listener</button>
+    <script>
+            function handleJustFunctionClick(){
+                const p = document.getElementById('clicking-mathod');
+                p.innerText = 'set by using funtion-owner Tajimul Hasna';
+            }
+            //direct
+            document.getElementById('Handle-Event').addEventListener('click', function(){
+                const p = document.getElementById('clicking-mathod');
+              p.innerText = 'set by using direct function';  
+            })
+
+            // again
+            document.getElementById('update-name').addEventListener('click', function (){
+                const nameField = document.getElementById('input-field');
+            const p = document.getElementById('clicking-mathod');
+            p.innerText = nameField.value;
+            nameField.value = '';
+                    })
+    </script>
+
+</body>
+</html>
