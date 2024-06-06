@@ -1,0 +1,39 @@
+.title h1{
+  display: flex;
+  justify-content: center;
+  color: #31A5AC;
+  font-size: 48px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  
+}
+
+.sec-image img{
+    width: 540px;
+   
+}
+
+.sec-machine{
+    background-color: #F8F8F8;
+    width: 500px;
+
+}
+
+.input{
+  width: 320px;
+}
+.form-control{
+  width: 250px;
+}
+.income-parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .footer-sec{
+  margin-top: px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

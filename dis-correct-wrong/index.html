@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display correct or wrong</title>
+    <style>
+        body{
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             height: 100vh; 
+             margin: 0; 
+        }
+        .correct{
+            color: rgb(3, 182, 3);
+        }
+        .wrong{
+            color: red;
+        }
+        .empty{
+            color: brown;
+        }
+        #input-field{
+            height: 22px;
+            width: 200px;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+        }
+        .span{
+            font-weight: 800;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="divition">
+       <p>Your Email is: <span class="span">hasantajimul10@gmail.com</span></p>
+    </div>
+    <div class="section">
+        <div id="input">
+            Email: <input id="input-field" type="text" placeholder="Type email adress here">
+            <div id="c-and-w">
+
+            </div>
+        </div>
+
+    <div class="btn">
+        <button id="button" onclick="getEmail()">Submit</button>
+
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

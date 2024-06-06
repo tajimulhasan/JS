@@ -1,0 +1,237 @@
+*{
+ 
+ margin: 0px;
+  
+}
+.container{
+    position: fixed;
+     display: flex;
+     justify-content: space-around;
+    /* margin-top: 0.0rem; */
+    background-color: rgb(6, 1, 80);
+    padding: 4px;
+    flex:50%;
+    /* width: 1250px;  */
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 60;
+    width: 100%;
+}
+.logo h1{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(255, 255, 254);
+font-size: 44;
+margin-right: 22rem;
+cursor: pointer;
+
+}
+.hasan{
+    color: rgb(255, 5, 142);
+}
+.ul{
+    display: flex;
+  align-items: center;
+  height: 100%;
+}
+.ul li{
+  display: flex;
+  align-items: center;
+    list-style: none;
+  
+   
+}
+.ul li a{
+    text-decoration: none;
+    padding: 6px 16px;
+    color: aqua;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ul li a:hover{
+    text-decoration: none;
+    padding: 6px 16px;
+    color: aqua;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.first-section{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text p{
+      width: 600px;
+      text-align: justify;
+}
+.image img{
+    width: 400px;
+}
+
+
+.js-tag{
+
+    display: flex;
+    justify-content: center;
+}
+
+.number-increasing{
+      border: 2px solid rgb(7, 0, 107);
+      width: 500px;
+      height: 210px;
+      
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      border-radius: 6px;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
+}
+.num-tag h2{
+    margin-top: 20px;
+    color: rgb(0, 0, 97);
+    text-align: center;
+}
+.button-and-display{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.button{
+
+}
+.btn{
+    padding: 10px 26px;
+    
+    background-image:linear-gradient(to right, rgb(94, 83, 255), rgb(19, 0, 102)) ;
+    border: 0px;
+    color: azure;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.btn:hover{
+    padding: 10px 26px;
+    cursor: pointer;
+    background-image:linear-gradient(to right, rgb(0, 250, 237),rgb(0, 102, 97));
+}
+.display-number{
+     height:45px;
+     width: 90px;
+     border: 2px solid blue;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 6px ;
+     -webkit-border-radius: 6px ;
+     -moz-border-radius: 6px ;
+     -ms-border-radius: 6px ;
+     -o-border-radius: 6px ;
+
+
+    }
+#submit-button{
+display: flex;
+justify-content: center;
+margin-top: 12px;
+
+}
+#sub-button{
+    background-image:linear-gradient(to right, rgb(94, 83, 255), rgb(19, 0, 102)) ;
+    padding: 8px 43px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 6px;
+    color: antiquewhite;
+    cursor: pointer;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+
+
+/* second section  */
+.second-section{
+    margin-top: 33px;
+}
+.sec-tag{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    margin-top: 22px;
+}
+.div-element{
+    
+    display: flex;
+    /* flex-direction: column; */
+     justify-content: space-evenly;
+    align-items: center;
+    margin-top: 12px;
+}
+.all-items{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 6px;
+
+}
+#sec-input{
+    height: 34px;
+    width: 77px;
+    padding: 6px;
+    margin: 11px;
+}
+#first-input{
+    height: 34px;
+    width: 77px;
+    padding: 6px;
+    margin: 11px;
+}
+#button3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+.equal-sign{
+
+    font-size: 64px;
+}
+.result{
+    height: 200px;
+    width: 200px;
+    border: 2px solid green;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+

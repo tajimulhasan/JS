@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Machine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Cash Machine <span class="ms-2">$</span></h1>
+        </div>
+    </header>
+    <section class="sec-parent d-flex justify-content-evenly">
+        <div class="sec-image d-flex justify-content-center align-items-center">
+            <img src="image/money jpj.jpg" alt="">
+        </div>
+
+        <form id="myForm" class="sec-machine">
+            <div class="first">
+                <h3 class="text-center mt-3">Income</h3>
+                <div class="input-section d-flex align-items-center justify-content-center">      
+                    <div class="input">
+                        <div class="income-parent">
+                            <h6 class="">Income:</h6>
+                        <input id="income-input" type="text" class="form-control" placeholder="cash-amount" required>
+                        </div>
+                        <div id="message-income" style="color: red;"></div>
+                    </div>
+                </div>
+                   <br>
+                <h3 class="d-flex justify-content-evenly mb-2 ">Expenses</h3>
+                <div class="input-section d-flex align-items-center justify-content-center">
+                    <div>
+                        <div class="input mt-2">
+                            <div class="income-parent">
+                                <h6 class="">Food:</h6>
+                                <input id="food-input" type="text" class="form-control" placeholder="cash-amount" required>
+                            </div>
+                            <div id="message-food" style="color: red;"></div>
+                        </div>
+                        <div class="input mt-2">
+                            <div class="income-parent">
+                                <h6 class="">Rent:</h6>
+                                <input id="rent-input" type="text" class="form-control" placeholder="cash-amount" required>
+                            </div>
+                            <div id="message-rent" style="color: red;"></div>
+                        </div>
+                        <div class="input mt-2">
+                            <div class="income-parent">
+                                <h6 class="">Cloth:</h6>
+                                <input id="clothes-input" type="text" class="form-control" placeholder="cash-amount" required>
+                            </div>
+                            <div id="message-clothes" style="color: red;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="buttonwe d-flex justify-content-center pt-3">
+                    <input type="submit" value="Calculate" class="btn btn-info" style="color: whitesmoke;">
+                </div>
+
+                <div class="total-and-balance text-center mt-3">
+                    <div class="total-expenses">
+                        <h3>Total Expenses: <span id="total-expenses">0</span></h3>
+                    </div>
+                    <div class="balance pt-1">
+                        <h3>Balance: <span id="balance-amount">0</span></h3>
+                    </div>
+                </div>
+                
+                <div class="input-with-title d-flex align-items-center justify-content-center mt-2 pt-3">
+                    <h6 class="pe-3">Save: </h6>
+                    <input type="text" id="saving-input" class="form-control w-25" placeholder="cash" required>
+                    <h5 class="ps-4 pe-4">%</h5>
+                    <button onclick="save()" type="button" class="btn btn-info" style="color: white;">Save</button>
+                </div>
+                <div class="total-and-balance text-center mt-3">
+                    <div class="balance">
+                        <h3>Saving Amount: <span id="saving-amount">0</span></h3>
+                    </div>
+                    <div class="balance">
+                        <h3>Remaining Balance: <span id="remaining-balance">0</span></h3>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!-- <footer class="footer-sec">@Tajimul Hasan</footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="back.js"></script>
+</body>
+</html>
